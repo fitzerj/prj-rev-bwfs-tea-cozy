@@ -1,0 +1,200 @@
+body{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+/*header*/
+header{
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: black;
+}
+
+header img{
+  display: block;
+  margin: 0 0 0 10px;
+  height: 50px;
+}
+
+header nav{
+  display: flex;
+  margin-right: 10px;
+}
+
+.navitems{
+  padding: 10px;
+}
+
+.navitems a{
+  color: seashell;
+}
+
+/*main content wrapper, center in screen*/
+main{
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  top: 62px;
+}
+
+/*center all sections within main wrapper,
+need this because tea section is not as wide as others*/
+main section{
+  margin: 0 auto;
+}
+
+
+/*top picture section*/
+#mission{
+  display: flex;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+#mission .mission{
+  background-color: black;
+  vertical-align: middle;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
+
+#mission h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+#mission h4{
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/*tea of the month section*/
+#tea_of_the_month{
+  width: 1000px;
+}
+
+#tea_of_the_month h2{
+  margin-top: 0;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#tea_of_the_month h4{
+  text-align: center;
+}
+
+.tea_items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.tea_items figure{
+  margin: 0;
+}
+
+.tea_items .first{
+  margin-right: 50px;
+}
+
+.tea_items .second{
+  margin-right: 50px;
+}
+
+.tea_items .fourth{
+  margin-right: 50px;
+}
+
+.tea_items img{
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+
+.tea-items h4{
+  width: 300px;
+  text-align: center;
+  margin: 0;
+}
+
+/*locations section*/
+#locations{
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  overflow: hidden;
+}
+
+#locations h2{
+  margin-bottom: 15px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#locations .locationwrap{
+  display: inline-flex;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+#locations .location{
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+}
+
+#locations .downtown{
+  margin-right: 40px;
+}
+
+#locations .oakdale{
+  margin-left: 40px;
+}
+
+/*contact section"*/
+#contact{
+  height: 200px;
+}
+
+#contact div{
+  text-align: center;
+}
+
+#contact h2{
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+/*footer*/
+footer{
+width: 100%;
+height: 69px;
+top: 62px;
+position: relative;
+}
+
+footer p{
+  line-height: 69px;
+  margin: 0 0 0 20px;
+}
